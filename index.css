@@ -2,6 +2,238 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;     
 }
+@media (max-width: 600px){
+        .navbar {
+            height: 50px;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .name {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+        }
+    
+        .search {
+            margin: 10px;
+            width: 90%;
+        }
+    
+        .detail {
+            width: 90%;
+        }
+    
+        .homep,
+        .aboutp,
+        .helpp {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+    
+        .inputt {
+            margin: 5px;
+            padding: 5px;
+            width: calc(100% - 20px);
+        }
+    
+        .images1,
+        .imagesthird {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .img1,
+        .img2,
+        .img3,
+        .img4,
+        .img5,
+        .img6,
+        .img7,
+        .img8,
+        .img9,
+        .img10 {
+            width: 90%;
+            margin: 10px;
+        }
+    
+        .middle {
+            height: auto;
+            background-size: contain;
+        }
+    
+        .main {
+            margin: 10px;
+            width: 95%;
+        }
+    
+        .imgsecond {
+            margin-left: 10px;
+        }
+    
+        .footer {
+            margin: 20px;
+            font-size: 24px;
+        }
+}
+@media (min-width: 6001px){
+    .navbar {
+        height: 50px;
+        width: 100%;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .name {
+        height: 50px;
+        width: 22%;
+        font-size: 46px;
+    }
+
+    .search {
+        margin-right: 50px;
+        width: 600px;
+        display: flex;
+        color: black;
+        justify-content: space-between;
+    }
+
+    .detail {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .homep,
+    .aboutp,
+    .helpp {
+        margin-top: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .homep:hover,
+    .aboutp:hover,
+    .helpp:hover {
+        text-decoration: underline;
+        color: #007bff;
+    }
+
+    .inputt {
+        margin: 10px;
+        padding: 1px;
+        color: black;
+    }
+
+    .inputt::placeholder {
+        color: black;
+    }
+
+    .inputt:hover {
+        border-color: white;
+    }
+
+    button {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 40px;
+        margin-top: 8px;
+        color: aliceblue;
+        background-color: #007bff;
+        border: none;
+        height: 35px;
+    }
+
+    button:hover {
+        background-color: rgb(64, 192, 223);
+        color: black;
+        cursor: pointer;
+    }
+
+    .middle {
+        height: 80vh;
+        width: 99%;
+        margin: 8px;
+        margin-left: 1px;
+        background-image: url(https://m.media-amazon.com/images/G/31/img24/Wireless/tdhruvko/Stores/HS/Banners/13thmarch/D121504465_1400x800.CB578910606.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .main {
+        margin: 10px;
+    }
+
+    .images1,
+    .imagesthird {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10 {
+        height: 400px;
+        width: 20%;
+    }
+
+    .iiimg1,
+    .iiimg2,
+    .iiimg3,
+    .iiimg4,
+    .iiimg6,
+    .iiimg7,
+    .iiimg8,
+    .iiimg9 {
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img5 {
+        height: 500px;
+        width: 90%;
+        margin-left: 50px;
+    }
+
+    .imgsecond {
+        padding: 10px;
+        margin: 10px;
+        margin-left: 59px;
+    }
+
+    .imgthird {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .img10 {
+        height: 450px;
+        width: 90%;
+        margin: 10px 10px 10px 50px;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+    }
+}
 .navbar{
     height: 50px;
     width: 100%;
