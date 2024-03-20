@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)no-repeat;    
+    background-size: cover;
+    background-position: center;
+}
+.head{
+    width: 420px;
+    border: 2px solid rgba(225, 225, 225, .2);
+    backdrop-filter: blur(10px);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 40px;
+    animation: border 3s infinite;
+}
+@keyframes border{
+    0%{
+        border-color: rgb(86, 141, 200);
+    }
+    50%{
+        border-color: purple;
+    }
+    100%{
+        border-color: green;
+    }
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+}
+.input-box{
+    width: 100%;
+    height: 50px;   
+    margin: 30px 0px;
+}
+.input1{
+    height: 100%;
+    width: 100% ;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(225, 225, 225, .2); 
+    border-radius: 30px;
+    background: transparent;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 20px;
+}
+.input1:hover{
+    border: 2px solid white;
+}
+.input1::placeholder{
+    color: aliceblue;
+    font-size: 17px;
+}
+.fp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -1px 0 20px;
+}
+.fp a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.fp a:hover{
+    text-decoration: underline;
+}
+.btn{
+    background: whitesmoke;
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+}
+.btn:hover{
+    border: 4px solid purple;
+}
+.register{
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: #007bff;
+}
